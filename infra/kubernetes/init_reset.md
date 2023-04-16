@@ -5,7 +5,7 @@ pod-network-cidr 을 입력하여 cluster 에 부여 할 아이피 대역대를 
 주의 할 점은 서버가 속한 네트워크의 대역대와 겹치지 않게 해야 한다.
 ```shell
 sudo kubeadm init \
-  --pod-network-cidr=10.0.0.0/16 \
+  --pod-network-cidr=192.168.0.0/16 \
   --upload-certs \
   --control-plane-endpoint=k8s-master
 ```
