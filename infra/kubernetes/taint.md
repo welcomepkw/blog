@@ -11,5 +11,5 @@ kubectl describe node k8s-master | grep Taints
 
 taint 삭제
 ```shell
-taint nodes k8s-master node-role.kubernetes.io/control-plane:NoSchedule-
+kubectl taint nodes k8s-master node-role.kubernetes.io/control-plane:NoSchedule-
 ```

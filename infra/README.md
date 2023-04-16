@@ -5,6 +5,9 @@
 - 자체 repository 를 구성 한다.
 - OAuth 서버를 자체 구성 한다.
 
+# 참고
+- kubernetes 는 k8s 로도 불린다.  
+설명 중 full name 을 적기 귀찮을땐... k8s 도 섞어 적었다.
 
 # 개발 배포 흐름도
 ### back-end (java)
@@ -27,3 +30,8 @@ git 으로 소스를 배포 하고 main 브런치에 commit 이 올라올 경우
 ### [JIB](JIB.md)
 ### [keycloak](keycloak.md)
 ### [swagger](swagger.md)
+
+
+# WEB
+### [Let's Encrypt]()
+### [k8s ingress tls 설정]()

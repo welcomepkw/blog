@@ -18,3 +18,10 @@ kubectl create -f tigera-operator.yaml
 wget https://raw.githubusercontent.com/projectcalico/calico/${VER}/manifests/custom-resources.yaml
 kubectl create -f custom-resources.yaml
 ```
+
+[Network addon list](https://kubernetes.io/docs/concepts/cluster-administration/addons/)
+
+주의사항  
+각 addon 마다 기본 네트워크 대역대가 기본 설정되어 있는듯 하다.    
+admin init 시 --pod-network-cidr 값을 참조 하므로  
+해당 값을 addon 에 맞게 입력 하거나 addon 설치 시 대역대를 변경하여 설치 한다.
