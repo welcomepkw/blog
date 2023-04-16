@@ -4,21 +4,21 @@
 
 
 # 설치
-###[install](./install.md)
+### [install](./install.md)
 
 
 # 설정 
-###[init/reset](./init_reset.md)
+### [init/reset](./init_reset.md)
 
 # networkPlugin
-###[networkPlugin](./networkPlugin.md)
+### [networkPlugin](./networkPlugin.md)
 
 # taint
-###[taint](./taint.md)
+### [taint](./taint.md)
 
 # ingress
-###[ingress](./ingress.md)
+### [ingress](./ingress.md)
 
 # metalLB
-###[metalLB](./metalLB.md)
+### [metalLB](./metalLB.md)
 
